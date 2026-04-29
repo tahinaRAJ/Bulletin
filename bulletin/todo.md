@@ -58,11 +58,12 @@
 
     - [ ] Adaptation du template login
       - [ ] Mettre des valeurs par défaut
-      - [ ]  Creation de routes : "/login"
+      - [ ]  Creation de route : "/login"
       - [ ]  Creation de controller : "AuthController"
         - [ ]  Creation de la fonction verifier(user,mdp) :: regarder dans la base puis rediriger vers la page list des etudiants
       
     - [ ] Creation de la page liste etudiant 
+      - [ ] Creation de la route "/list"
       - [ ] Adapter le template 
       - [ ] Creation du Controller "EtuController"
         - [ ] Creation de la fonction findAllEtudiants() :: appeler le model "EtuModel"
@@ -71,6 +72,7 @@
         - [ ] Creation de la fonction findAllEtudiants():: Acceder a la base \
     
     - [ ] Creation de la page "insertionNotes"
+      - [ ] Creation de route "/insert"
       - [ ]  Adaptation du template
       - [ ]  Liste deroulante pour l'etu
       - [ ]  liste deroulante pour la matiere
@@ -80,6 +82,7 @@
         - [ ] Creation de la fonction insererNote(id_etu,note,id_matiere) : verifier que la note n'est pas negative et entre 0 a 20 , si on  insere plusieurs fois pour la meme note et meme matiere  , a chaque nouvelle insertion , on prend le plus grand entre l'inertion et la base mais on garde toutes les notes au cas ou on supprimme la note la plus grande -> on affiche la note qui suit 
 
     -[ ] Creation de la page ficheEtu
+      - [ ] Creation de la route "/etud/id"
       - [ ] Modification du controller "NoteController"
         - [ ] Creation de la fonction supprimerNote(id, id_etu,id_matiere)
         - [ ] Creation de la fonction findAllNotesByoption(id_etu)
