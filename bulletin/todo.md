@@ -86,3 +86,5 @@
         - [ ] Creation de la fonction findAllMoyenneBySemestre(id_etu)
       - [ ] Modification du model "NoteModel"
         - [ ] creation de la fonction findAllNotesByOption(id_etu)
+        - [ ] Creation de la fonction findAllMoyenneByYear(id_etu)
+        - [ ] Creation de la fonction findAllMoyenneBySemestre(id_etu)
