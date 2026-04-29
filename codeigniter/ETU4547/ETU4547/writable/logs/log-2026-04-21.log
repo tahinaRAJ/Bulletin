@@ -1,0 +1,124 @@
+ERROR - 2026-04-21 13:15:11 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bibliotheque' in /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/app/Controllers/LibraryController.php(34): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+#8 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bibliotheque' in /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/app/Controllers/LibraryController.php(34): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+#7 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-21 13:15:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bibliotheque'
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/LibraryController.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/ETU4351/public/index.php')
+DEBUG - 2026-04-21 13:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:39:04 --> CSRF token verified.
+DEBUG - 2026-04-21 13:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:40:44 --> CSRF token verified.
+DEBUG - 2026-04-21 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:43:28 --> CSRF token verified.
+DEBUG - 2026-04-21 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:43:35 --> CSRF token verified.
+DEBUG - 2026-04-21 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:44:31 --> CSRF token verified.
+DEBUG - 2026-04-21 13:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:44:36 --> CSRF token verified.
+DEBUG - 2026-04-21 13:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:44:56 --> CSRF token verified.
+DEBUG - 2026-04-21 13:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:45:09 --> CSRF token verified.
+DEBUG - 2026-04-21 13:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:51:15 --> CSRF token verified.
+DEBUG - 2026-04-21 13:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

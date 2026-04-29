@@ -1,0 +1,59 @@
+APPLICATION CODEIGNITER
+GESTION BIBLIOTHEQUE
+1. Résultats Fonctionnels (Ce que l'utilisateur voit)
+Gestion du Catalogue
+
+
+
+
+
+Affichage dynamique : Une table ou une grille affichant tous les ouvrages avec leurs
+informations (Titre, Auteur, Année).
+Indicateur de disponibilité : Chaque livre doit afficher un statut clair : "Disponible"
+(en vert) ou "Prêté" (en rouge).
+Recherche et Filtres : Un champ de recherche permettant de trouver un livre par son
+titre ou de filtrer par catégorie (ex: Informatique, Roman, Finance).
+Fiche détaillée : Une page dédiée pour chaque livre affichant le résumé complet et
+l'historique simplifié (qui l'a emprunté en dernier).
+
+Gestion des Mouvements (Emprunts)
+
+
+
+
+Action de prêt : Un bouton permettant de changer l'état d'un livre de "Disponible" à
+"Prêté" en associant un nom d'emprunteur.
+Action de retour : Un bouton pour libérer le livre et le remettre en "Disponible".
+Alerte de stock : Si un livre est déjà prêté, le bouton "Prêter" doit être désactivé ou
+masqué.
+
+2. Résultats Techniques (Ce que le code doit garantir)
+Validation et Intégrité des Données
+
+
+
+
+
+Validation stricte : * Le champ ISBN (International Standard Book Number) doit
+être unique en base de données.
+o Le titre doit comporter au moins 3 caractères.
+o La date de publication ne peut pas être dans le futur.
+Persistance : Après l'envoi d'un formulaire, les données doivent être correctement
+enregistrées dans MySQL via le Model CodeIgniter.
+Messages d'erreur : En cas de saisie incorrecte, le formulaire doit se recharger en
+affichant les messages d'erreur spécifiques à côté de chaque champ (ex: "Le champ
+Titre est requis").
+
+Sécurité et Performance
+
+
+
+
+Protection CSRF : Toute tentative d'ajout ou de suppression de livre sans jeton de
+sécurité valide doit être bloquée par le framework.
+Pagination fonctionnelle : Si la bibliothèque contient plus de 10 livres, les résultats
+doivent être répartis sur plusieurs pages (1, 2, 3...) pour éviter de ralentir le serveur.
+Gestion des fichiers : Si une couverture est ajoutée, le système doit vérifier que c'est
+bien une image (pas un script PHP malveillant) et limiter sa taille (ex: max 2 Mo).
+
+

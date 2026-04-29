@@ -1,0 +1,100 @@
+ERROR - 2026-04-22 06:18:27 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#6 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Models/LivreModel.php(45): CodeIgniter\BaseModel->paginate()
+#7 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Controllers/LivresController.php(33): App\Models\LivreModel->getPaginatedWithRelations()
+#8 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\LivresController->index()
+#9 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#5 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Models/LivreModel.php(45): CodeIgniter\BaseModel->paginate()
+#6 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Controllers/LivresController.php(33): App\Models\LivreModel->getPaginatedWithRelations()
+#7 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\LivresController->index()
+#8 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2026-04-22 06:18:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/LivreModel.php(45): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/LivresController.php(33): App\Models\LivreModel->getPaginatedWithRelations()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LivresController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-22 06:18:38 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#6 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Models/LivreModel.php(45): CodeIgniter\BaseModel->paginate()
+#7 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Controllers/LivresController.php(33): App\Models\LivreModel->getPaginatedWithRelations()
+#8 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\LivresController->index()
+#9 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#5 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Models/LivreModel.php(45): CodeIgniter\BaseModel->paginate()
+#6 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/app/Controllers/LivresController.php(33): App\Models\LivreModel->getPaginatedWithRelations()
+#7 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\LivresController->index()
+#8 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/rajaobelina/Documents/Systeme_d'informations/codeigniter/tpCodeIgniter/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2026-04-22 06:18:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/LivreModel.php(45): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/LivresController.php(33): App\Models\LivreModel->getPaginatedWithRelations()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LivresController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()

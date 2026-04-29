@@ -1,0 +1,1713 @@
+CRITICAL - 2026-04-15 06:39:01 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 4.
+ 1 APPPATH/Views/Etudiant_Liste.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:40:31 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 4.
+ 1 APPPATH/Views/Etudiant_Liste.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:41:02 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 4.
+ 1 APPPATH/Views/Etudiant_Liste.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:41:07 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 4.
+ 1 APPPATH/Views/Etudiant_Liste.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:41:09 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 4.
+ 1 APPPATH/Views/Etudiant_Liste.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:06 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:20 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:27 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:28 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:28 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:28 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:29 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:29 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:29 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:29 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:29 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:30 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:30 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:30 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:30 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:30 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:30 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:31 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:45:51 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 3.
+ 1 APPPATH/Views/Etudiant_Liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:32 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:32 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:33 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:34 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:34 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:34 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:34 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:34 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:46:34 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:03 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:03 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:04 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:04 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:04 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:04 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:04 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:05 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:05 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:05 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:05 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:05 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:05 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:06 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:06 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:06 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:08 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:08 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:09 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:50 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:50 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:51 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:51 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:51 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:51 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:52 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:48:53 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 06:49:07 --> ErrorException: Undefined variable $etudiants
+[Method: GET, Route: /]
+in APPPATH/Views/Etudiant_Liste.php on line 1.
+ 1 APPPATH/Views/Etudiant_Liste.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Views/Etudiant_Liste.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+ERROR - 2026-04-15 07:00:52 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Controllers/EtudiantController.php(9): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\EtudiantController->index()
+#8 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Controllers/EtudiantController.php(9): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\EtudiantController->index()
+#7 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-15 07:00:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/EtudiantController.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\EtudiantController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+ERROR - 2026-04-15 07:00:53 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Controllers/EtudiantController.php(9): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\EtudiantController->index()
+#8 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/app/Controllers/EtudiantController.php(9): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\EtudiantController->index()
+#7 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-15 07:00:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/EtudiantController.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\EtudiantController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/codeigniter4-framework-b3359be/public/index.php')
+CRITICAL - 2026-04-15 08:17:51 --> ErrorException: Type of App\Models\BookModel::$useTimestamps must not be defined (as in class CodeIgniter\BaseModel)
+[Method: GET, Route: livres]
+in APPPATH/Models/BookModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-04-15 08:19:25 --> Table 'EtudiantDB_codeigniter.books' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/LibraryController.php(47): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/Livre/public/index.php')
+CRITICAL - 2026-04-15 08:19:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'EtudiantDB_codeigniter.books' doesn't exist
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/LibraryController.php(47): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/Livre/public/index.php')
+CRITICAL - 2026-04-15 08:19:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'EtudiantDB_codeigniter.books' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/LibraryController.php(47): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/Livre/public/index.php')
+CRITICAL - 2026-04-15 08:19:25 --> [Caused by] mysqli_sql_exception: Table 'EtudiantDB_codeigniter.books' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/LibraryController.php(47): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LibraryController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/web/S4/codeigniter4-framework-v4.7.2-0-gb3359be/Livre/public/index.php')
+DEBUG - 2026-04-15 08:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-15 08:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
