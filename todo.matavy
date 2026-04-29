@@ -1,0 +1,294 @@
+# ✅ Todolist Foolproof — Projet CodeIgniter 4 (Gestion Notes L2)
+
+> Suivre les étapes **dans l'ordre**. Ne pas passer à une étape si la précédente n'est pas validée.  
+> Légende : 🔴 Bloquant | 🟡 Important | 🟢 Optionnel/Bonus
+
+---
+
+## PHASE 0 — Préparation de l'environnement
+
+- [ ] **0.1** 🔴 Vérifier que CodeIgniter 4 est installé et que le serveur local tourne (`php spark serve`)
+- [ ] **0.2** 🔴 Créer la base de données MySQL (ex: `gestion_notes`)
+- [ ] **0.3** 🔴 Configurer `.env` : `database.default.hostname`, `database.default.database`, `database.default.username`, `database.default.password`
+- [ ] **0.4** 🔴 Tester la connexion BDD (accéder à n'importe quelle route et vérifier l'absence d'erreur BDD)
+- [ ] **0.5** 🟡 Récupérer le fichier SCSS fourni et l'intégrer dans `public/assets/`
+
+---
+
+## PHASE 1 — Base de données (Tables)
+
+> ⚠️ Créer dans cet ordre pour respecter les clés étrangères.
+
+- [ ] **1.1** 🔴 Créer la table `semestre`
+  ```sql
+  CREATE TABLE semestre (
+    id INT PRIMARY KEY AUTO_INCREMENT
+  );
+  INSERT INTO semestre VALUES (1), (2); -- S3=1, S4=2
+  ```
+
+- [ ] **1.2** 🔴 Créer la table `option`
+  ```sql
+  CREATE TABLE option (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    label VARCHAR(50) NOT NULL
+  );
+  INSERT INTO option (label) VALUES ('dev'), ('bddres'), ('web');
+  ```
+
+- [ ] **1.3** 🔴 Créer la table `user`
+  ```sql
+  CREATE TABLE user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(100) NOT NULL,
+    mdp VARCHAR(255) NOT NULL
+  );
+  INSERT INTO user (nom, mdp) VALUES ('admin', '1234');
+  ```
+
+- [ ] **1.4** 🔴 Créer la table `etudiant`
+  ```sql
+  CREATE TABLE etudiant (
+    id VARCHAR(10) PRIMARY KEY, -- ex: '003469'
+    nom VARCHAR(100) NOT NULL
+  );
+  -- Insérer quelques étudiants de test
+  INSERT INTO etudiant VALUES ('003469', 'Rakoto Jean'), ('003470', 'Rabe Marie');
+  ```
+
+- [ ] **1.5** 🔴 Créer la table `matiere`
+  ```sql
+  CREATE TABLE matiere (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    numero VARCHAR(20),
+    nom VARCHAR(100) NOT NULL,
+    coef FLOAT NOT NULL DEFAULT 1,
+    id_semestre INT NOT NULL,
+    optional TINYINT(1) NOT NULL DEFAULT 0,
+    FOREIGN KEY (id_semestre) REFERENCES semestre(id)
+  );
+  -- Insérer des matières de test (S3 et S4)
+  ```
+
+- [ ] **1.6** 🔴 Créer la table `matiere_semestre`
+  ```sql
+  CREATE TABLE matiere_semestre (
+    id_semestre INT NOT NULL,
+    id_matiere INT NOT NULL,
+    id_option INT NULL, -- NULL pour S3, requis pour S4
+    PRIMARY KEY (id_semestre, id_matiere, id_option),
+    FOREIGN KEY (id_semestre) REFERENCES semestre(id),
+    FOREIGN KEY (id_matiere) REFERENCES matiere(id),
+    FOREIGN KEY (id_option) REFERENCES option(id)
+  );
+  ```
+
+- [ ] **1.7** 🔴 Créer la table `note`
+  ```sql
+  CREATE TABLE note (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_etu VARCHAR(10) NOT NULL,
+    id_matiere INT NOT NULL,
+    note FLOAT NOT NULL,
+    FOREIGN KEY (id_etu) REFERENCES etudiant(id),
+    FOREIGN KEY (id_matiere) REFERENCES matiere(id)
+  );
+  ```
+
+- [ ] **1.8** ✔️ Vérifier : toutes les tables sont créées sans erreur (`SHOW TABLES;`)
+
+---
+
+## PHASE 2 — Base de données (Vues)
+
+- [ ] **2.1** 🔴 Créer la vue `v_note_par_option`
+  - Logique : pour chaque (id_etu, id_option), retourner MAX(note) par matière non optionnelle + la matière optionnelle avec la note la plus haute
+  - Vérification : `SELECT * FROM v_note_par_option;` → résultats cohérents
+
+- [ ] **2.2** 🔴 Créer la vue `v_moyenne_par_option`
+  - Logique : `SUM(note * coef) / SUM(coef)` GROUP BY (id_etu, id_option) depuis `v_note_par_option`
+  - Vérification : calculer à la main pour un étudiant et comparer
+
+- [ ] **2.3** 🟡 Créer la vue `v_moyenne_annee_par_option`
+  - Logique : combiner S3 et S4 depuis `v_moyenne_par_option`, calculer (moy_S3 + moy_S4) / 2
+  - Vérification : résultat attendu pour un étudiant test
+
+---
+
+## PHASE 3 — Page Login
+
+- [ ] **3.1** 🔴 Créer la route `/login` dans `app/Config/Routes.php`
+  ```php
+  $routes->get('login', 'AuthController::index');
+  $routes->post('login', 'AuthController::verifier');
+  ```
+
+- [ ] **3.2** 🔴 Créer `app/Controllers/AuthController.php`
+  - Méthode `index()` → afficher la vue login
+  - Méthode `verifier()` → vérifier user/mdp en BDD, démarrer session si ok, rediriger `/list`
+
+- [ ] **3.3** 🔴 Créer la vue `app/Views/login.php`
+  - Formulaire avec champs `nom` et `mdp`
+  - **Valeurs par défaut pré-remplies** (ex: `value="admin"` / `value="1234"`)
+  - Zone d'affichage des erreurs
+
+- [ ] **3.4** 🟡 Intégrer le thème SCSS sur la page login
+
+- [ ] **3.5** ✔️ Tester : login valide → redirige vers `/list`
+- [ ] **3.6** ✔️ Tester : login invalide → message d'erreur sur la même page
+- [ ] **3.7** ✔️ Tester : champs vides → message d'erreur
+- [ ] **3.8** ✔️ Tester : accès direct `/list` sans session → redirection `/login`
+
+---
+
+## PHASE 4 — Page Liste Étudiants
+
+- [ ] **4.1** 🔴 Créer la route `/list`
+  ```php
+  $routes->get('list', 'EtuController::index');
+  ```
+
+- [ ] **4.2** 🔴 Créer `app/Models/EtuModel.php`
+  - Méthode `findAllEtudiants()` → `return $this->findAll();`
+
+- [ ] **4.3** 🔴 Créer `app/Controllers/EtuController.php`
+  - Méthode `index()` → appeler `EtuModel::findAllEtudiants()`, passer à la vue
+
+- [ ] **4.4** 🔴 Créer la vue `app/Views/list_etu.php`
+  - Tableau ou liste des étudiants
+  - Chaque étudiant → lien cliquable vers `/etud/{id}`
+  - Message "Aucun étudiant" si la liste est vide
+
+- [ ] **4.5** 🟡 Ajouter filtre de session (si non connecté → redirection `/login`)
+- [ ] **4.6** 🟡 Intégrer le thème SCSS
+
+- [ ] **4.7** ✔️ Tester : la liste affiche tous les étudiants insérés
+- [ ] **4.8** ✔️ Tester : clic sur un étudiant → URL `/etud/{id}` correcte
+- [ ] **4.9** ✔️ Tester : liste vide → pas de crash
+
+---
+
+## PHASE 5 — Page Insertion de Notes
+
+- [ ] **5.1** 🔴 Créer la route `/insert`
+  ```php
+  $routes->get('insert', 'NoteController::index');
+  $routes->post('insert', 'NoteController::insererNote');
+  ```
+
+- [ ] **5.2** 🔴 Créer `app/Models/NoteModel.php`
+  - Méthode `insererNote(id_etu, note, id_matiere)`
+    - Vérifier : 0 ≤ note ≤ 20, sinon retourner une erreur
+    - Insérer la ligne dans la table `note` (sans supprimer les précédentes)
+
+- [ ] **5.3** 🔴 Créer `app/Controllers/NoteController.php`
+  - Méthode `index()` → charger étudiants + matières, afficher la vue
+  - Méthode `insererNote()` → valider, appeler le modèle, retourner feedback
+
+- [ ] **5.4** 🔴 Créer la vue `app/Views/insert_note.php`
+  - Liste déroulante étudiants (depuis `EtuModel`)
+  - Liste déroulante matières (depuis `NoteModel` ou `MatiereModel`)
+  - Champ numérique pour la note
+  - Message de succès / erreur après soumission
+
+- [ ] **5.5** 🟡 Intégrer le thème SCSS
+- [ ] **5.6** 🟡 Ajouter filtre de session
+
+- [ ] **5.7** ✔️ Tester : insertion note 15 → OK
+- [ ] **5.8** ✔️ Tester : insertion note 18 pour même (etu, matiere) → 2 lignes en BDD, MAX = 18
+- [ ] **5.9** ✔️ Tester : insertion note 12 → MAX reste 18
+- [ ] **5.10** ✔️ Tester : note = -1 → rejet + message erreur
+- [ ] **5.11** ✔️ Tester : note = 21 → rejet + message erreur
+- [ ] **5.12** ✔️ Tester : note = "abc" → rejet + message erreur
+- [ ] **5.13** ✔️ Tester : soumission sans étudiant/matière → rejet
+
+---
+
+## PHASE 6 — Page Fiche Étudiant
+
+- [ ] **6.1** 🔴 Créer la route `/etud/(:segment)`
+  ```php
+  $routes->get('etud/(:segment)', 'NoteController::ficheEtu/$1');
+  ```
+
+- [ ] **6.2** 🔴 Ajouter dans `NoteModel`
+  - `findAllNotesByOption(id_etu)` → interroger `v_note_par_option`
+  - `findAllMoyenneBySemestre(id_etu)` → moyennes S3 et S4 depuis `v_moyenne_par_option`
+  - `findAllMoyenneByYear(id_etu)` → moyenne annuelle depuis `v_moyenne_annee_par_option`
+
+- [ ] **6.3** 🔴 Ajouter dans `NoteController`
+  - `ficheEtu($id)` → charger toutes les données, les passer à la vue
+  - `supprimerNote($id, $id_etu, $id_matiere)` → supprimer la ligne, rediriger vers la fiche
+
+- [ ] **6.4** 🔴 Créer la vue `app/Views/fiche_etu.php`
+
+  **Structure de la vue :**
+  - Onglets ou liens : `S3` | `S4 Dev` | `S4 BddRes` | `S4 Web` | `L2 Dev` | `L2 BddRes` | `L2 Web`
+
+  **Section S3 :**
+  - Tableau : Matière | Coef | Note (MAX) | Action Supprimer
+
+  **Section S4 (par option) :**
+  - Tableau : Matière | Coef | Note (MAX) | Optionnelle ? | Action Supprimer
+  - Matières optionnelles : afficher uniquement celle avec la note la plus haute
+
+  **Section L2 (par option) :**
+  - Notes S3 + notes S4 de l'option
+  - Ligne de moyenne finale : (moy_S3 + moy_S4) / 2
+
+- [ ] **6.5** 🔴 Ajouter bouton "Supprimer" sur chaque note (avec confirmation JS si possible)
+- [ ] **6.6** 🟡 Intégrer le thème SCSS
+- [ ] **6.7** 🟡 Ajouter filtre de session
+
+- [ ] **6.8** ✔️ Tester : fiche d'un étudiant avec notes → affichage correct
+- [ ] **6.9** ✔️ Tester : fiche d'un étudiant sans aucune note → pas de crash
+- [ ] **6.10** ✔️ Tester : matière optionnelle S4 → seule la meilleure est affichée
+- [ ] **6.11** ✔️ Tester : supprimer une note non-MAX → MAX inchangé
+- [ ] **6.12** ✔️ Tester : supprimer la note MAX → la note suivante prend le relais
+- [ ] **6.13** ✔️ Tester : supprimer la seule note d'une matière → matière affichée avec "—"
+- [ ] **6.14** ✔️ Tester : URL `/etud/9999` (inexistant) → 404 ou message propre
+- [ ] **6.15** ✔️ Tester : moyenne L2 calculée correctement (vérifier à la main)
+
+---
+
+## PHASE 7 — Finition & Design
+
+- [ ] **7.1** 🟡 Compiler le SCSS et appliquer sur toutes les pages
+- [ ] **7.2** 🟡 Vérifier la cohérence visuelle (même thème sur login, list, insert, fiche)
+- [ ] **7.3** 🟡 Vérifier les messages d'erreur visibles et lisibles
+- [ ] **7.4** 🟢 Ajouter une navbar/menu de navigation entre les pages
+- [ ] **7.5** 🟢 Ajouter un bouton "Déconnexion" (détruire session, rediriger `/login`)
+- [ ] **7.6** 🟢 Vérifier le responsive sur les tableaux de notes
+
+---
+
+## PHASE 8 — Recette Finale
+
+> Faire les tests suivants dans l'ordre sur l'application complète.
+
+| # | Scénario | Résultat attendu | ✔ |
+|---|---|---|---|
+| R1 | Ouvrir `/list` sans session | Redirige vers `/login` | [ ] |
+| R2 | Login avec valeurs par défaut pré-remplies | Redirige vers `/list` | [ ] |
+| R3 | Login avec mauvais mdp | Reste sur `/login` + erreur | [ ] |
+| R4 | Insérer une note 14 pour Etu A, Matière X | Succès, 1 ligne en BDD | [ ] |
+| R5 | Insérer note 17 pour même (Etu A, Matière X) | Succès, 2 lignes BDD, MAX=17 | [ ] |
+| R6 | Insérer note 25 | Rejet + message erreur | [ ] |
+| R7 | Ouvrir fiche Etu A → onglet S3 | Notes S3 affichées, MAX correct | [ ] |
+| R8 | Ouvrir fiche Etu A → onglet S4 Dev | Notes S4 option dev, 1 matière optionnelle | [ ] |
+| R9 | Ouvrir fiche Etu A → onglet L2 Dev | S3 + S4 + moyenne annuelle | [ ] |
+| R10 | Supprimer la note 17 (MAX) de Matière X | Note affichée passe à 14 | [ ] |
+| R11 | Supprimer la note 14 (restante) | Matière X affichée avec "—" | [ ] |
+| R12 | Ouvrir `/etud/INCONNU` | 404 ou message propre, pas de crash | [ ] |
+
+---
+
+## Checklist de Livraison
+
+- [ ] Toutes les routes fonctionnent
+- [ ] Les vues SQL retournent les bons résultats
+- [ ] Les règles de gestion (MAX, matière optionnelle) sont respectées
+- [ ] Le design SCSS est appliqué sur toutes les pages
+- [ ] Les messages d'erreur sont visibles sur formulaires
+- [ ] Les accès non authentifiés sont bloqués
+- [ ] Aucune page ne crash avec des données vides

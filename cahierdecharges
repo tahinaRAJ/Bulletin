@@ -1,0 +1,210 @@
+# Cahier des Charges — Projet CodeIgniter 4 (Gestion des Notes L2)
+
+> **Date :** 29 avril 2026  
+> **Durée estimée :** 4h  
+> **Stack :** CodeIgniter 4 · MySQL · SCSS
+
+---
+
+## 1. Contexte et Objectifs
+
+Application web de gestion des notes d'étudiants de niveau L2 (deux semestres : S3 et S4).  
+L'application permet à un utilisateur authentifié de :
+- Consulter la liste des étudiants
+- Saisir et gérer les notes par matière
+- Visualiser la fiche complète d'un étudiant (notes, moyennes par semestre, moyenne annuelle)
+
+---
+
+## 2. Base de données
+
+### 2.1 Tables
+
+| Table | Colonnes clés | Remarques |
+|---|---|---|
+| `user` | `id`, `nom`, `mdp` | Authentification simple |
+| `etudiant` | `id` (ex: 003469), `nom` | Identifiant métier alphanumérique |
+| `semestre` | `id` | S3, S4 |
+| `option` | `id`, `label` | dev / bddres / web |
+| `matiere` | `id`, `numero`, `nom`, `coef`, `id_semestre`, `optional` (0 ou 1) | `optional=1` → matière optionnelle en S4 |
+| `matiere_semestre` | `id_semestre`, `id_matiere`, `option` (nullable sauf S4) | Association matière ↔ semestre avec option |
+| `note` | `id`, `id_etu`, `id_matiere`, `note` | Plusieurs lignes possibles par (etu, matiere) |
+
+### 2.2 Vues
+
+#### `v_note_par_option`
+- **But :** Pour chaque étudiant et chaque option, retourner UNE note par matière.  
+  - Matières non optionnelles → note maximale de l'étudiant pour cette matière.  
+  - Matières optionnelles → parmi toutes les matières optionnelles de l'option, on ne garde que celle ayant la **note la plus élevée**.
+- **Colonnes :** `id_etu`, `note`, `id_matiere`, `coef`, `id_option`
+
+#### `v_moyenne_par_option`
+- **But :** Calculer la moyenne pondérée (Σ note×coef / Σ coef) par étudiant et par option.
+- **Colonnes :** `id_etu`, `moyenne`, `coef_total`, `id_option`
+
+#### `v_moyenne_annee_par_option`
+- **But :** Moyenne annuelle L2 = (moyenne_S3 + moyenne_S4) / 2, par option.
+- **Colonnes :** `id_etudiant`, `note`, `id_matiere`
+
+---
+
+## 3. Fonctionnalités (Pages)
+
+### 3.1 Page Login — `/login`
+
+**Controller :** `AuthController`  
+**Fonction :** `verifier(user, mdp)`
+
+| Élément | Détail |
+|---|---|
+| Formulaire | Champs `nom` et `mdp` |
+| Valeurs par défaut | Pré-remplir avec un compte de test (ex: `admin` / `1234`) |
+| Succès | Redirection vers `/list` |
+| Échec | Rester sur la page avec message d'erreur visible |
+| Session | Démarrer une session utilisateur en cas de succès |
+
+**Bugs / cas à tester :**
+- [ ] Connexion avec identifiants valides → redirection correcte
+- [ ] Connexion avec mauvais mot de passe → message d'erreur, pas de redirection
+- [ ] Connexion avec champs vides → message d'erreur explicite
+- [ ] Accès direct à `/list` sans être connecté → redirection vers `/login`
+- [ ] Injection SQL dans le champ `nom` ou `mdp` → doit échouer proprement
+
+---
+
+### 3.2 Page Liste Étudiants — `/list`
+
+**Controller :** `EtuController`  
+**Modèle :** `EtuModel`  
+**Fonction :** `findAllEtudiants()`
+
+| Élément | Détail |
+|---|---|
+| Affichage | Tableau ou liste de tous les étudiants |
+| Clic sur un étudiant | Lien vers `/etud/{id}` |
+| Template | Adapté avec le thème SCSS fourni |
+
+**Bugs / cas à tester :**
+- [ ] La liste affiche bien tous les étudiants de la BDD
+- [ ] Les liens vers les fiches individuelles sont corrects
+- [ ] Affichage avec 0 étudiant → message "aucun étudiant" plutôt qu'une erreur
+- [ ] Accès sans session → redirection login
+
+---
+
+### 3.3 Page Insertion de Notes — `/insert`
+
+**Controller :** `NoteController`  
+**Modèle :** `NoteModel`  
+**Fonction :** `insererNote(id_etu, note, id_matiere)`
+
+| Élément | Détail |
+|---|---|
+| Liste déroulante étudiants | Chargée depuis `EtuModel` |
+| Liste déroulante matières | Chargée depuis la table `matiere` |
+| Champ note | Numérique, entre 0 et 20 |
+| Insertion multiple | Autorisée — **toutes les lignes sont conservées** dans la table `note` |
+| Note affichée | Toujours la **note maximale** parmi les insertions pour (etu, matiere) |
+| Suppression | Si la note max est supprimée, la suivante prend le relais automatiquement |
+
+**Règles de gestion :**
+1. Note < 0 ou > 20 → rejet avec message d'erreur
+2. Même (étudiant, matière) → nouvelle ligne insérée, note affichée = MAX
+3. Suppression d'une note → recalcul automatique du MAX restant
+
+**Bugs / cas à tester :**
+- [ ] Insertion d'une note valide (ex: 15) → enregistrée, MAX correct
+- [ ] Insertion d'une deuxième note supérieure (ex: 18) → MAX = 18
+- [ ] Insertion d'une deuxième note inférieure (ex: 12) → MAX reste à 15
+- [ ] Suppression de la note 18 → MAX revient à 15 (pas à 0 ou NULL)
+- [ ] Saisie de -1 → rejet, message d'erreur
+- [ ] Saisie de 21 → rejet, message d'erreur
+- [ ] Saisie d'une valeur non numérique (ex: "abc") → rejet
+- [ ] Soumission sans sélectionner d'étudiant → rejet
+- [ ] Soumission sans sélectionner de matière → rejet
+
+---
+
+### 3.4 Page Fiche Étudiant — `/etud/{id}`
+
+**Controller :** `NoteController` (étendu)  
+**Modèle :** `NoteModel` (étendu)
+
+#### Fonctions ajoutées au controller :
+
+| Fonction | Description |
+|---|---|
+| `supprimerNote(id, id_etu, id_matiere)` | Supprime une note spécifique |
+| `findAllNotesByOption(id_etu)` | Notes groupées par option (via `v_note_par_option`) |
+| `findAllMoyenneByYear(id_etu)` | Moyenne annuelle L2 (via `v_moyenne_annee_par_option`) |
+| `findAllMoyenneBySemestre(id_etu)` | Moyennes S3 et S4 séparées |
+
+#### Affichage de la fiche :
+
+**Lien "S3"** → tableau des notes S3 uniquement  
+**Lien "S4 option dev / bddres / web"** → notes S4 filtrées par option  
+**Lien "L2 option dev / bddres / web"** → notes S3 + S4 + moyenne annuelle pondérée
+
+| Section | Détail |
+|---|---|
+| S3 | Notes de toutes les matières S3 |
+| S4 | Notes par option (dev, bddres, web), matière optionnelle = meilleure note |
+| L2 | Notes des 2 semestres + moyenne finale (S3+S4)/2 par option |
+| Bouton supprimer | Présent sur chaque note, déclenche `supprimerNote()` |
+
+**Règles de gestion spécifiques S4 :**
+- Matières optionnelles : afficher **une seule** matière = celle avec la note la plus haute
+- Si ex æquo → prendre la première par ordre alphabétique (ou `id` le plus petit)
+
+**Bugs / cas à tester :**
+- [ ] Fiche avec étudiant ayant 0 note → affichage propre, pas d'erreur de division
+- [ ] Fiche avec notes en S3 seulement → S4 vide, L2 affiche uniquement S3
+- [ ] Matières optionnelles S4 : la meilleure note est bien sélectionnée
+- [ ] Suppression de la seule note d'une matière → matière apparaît vide (note: —)
+- [ ] Suppression d'une note non-MAX → MAX inchangé, ligne supprimée correctement
+- [ ] Suppression de la note MAX → note suivante prend le relais
+- [ ] Moyenne L2 avec les 2 semestres → calcul correct (pondéré par coef)
+- [ ] URL avec un `id` inexistant → page 404 ou message d'erreur propre
+- [ ] Accès sans session → redirection login
+
+---
+
+## 4. Règles de Gestion Globales
+
+| Règle | Description |
+|---|---|
+| **Note maximale** | Pour une matière donnée, la note affichée = MAX de toutes les insertions |
+| **Matière optionnelle** | Parmi les matières optionnelles, seule celle avec la note la plus haute est retenue |
+| **Suppression sécurisée** | La suppression n'efface pas toutes les notes, seulement la ligne ciblée — le MAX se recalcule |
+| **Pas de S4 sans option** | L'affichage S4 nécessite de choisir une option (dev / bddres / web) |
+| **L2 = S3 + S4** | La moyenne annuelle additionne les résultats des 2 semestres |
+
+---
+
+## 5. Design & Intégration SCSS
+
+| Élément | Consigne |
+|---|---|
+| Thème | Utiliser le fichier SCSS fourni, personnalisation autorisée |
+| Toutes les pages | Doivent être intégrées avec le thème |
+| Responsive | Souhaitable pour les tableaux de notes |
+| Accessibilité | Messages d'erreur visibles, contraste suffisant |
+
+---
+
+## 6. Récapitulatif des Tests Critiques
+
+| # | Test | Page | Résultat attendu |
+|---|---|---|---|
+| T1 | Login avec bons identifiants | `/login` | Redirection `/list` |
+| T2 | Login avec mauvais mdp | `/login` | Message erreur, reste sur `/login` |
+| T3 | Accès direct à `/list` sans session | `/list` | Redirection `/login` |
+| T4 | Insertion note = 25 | `/insert` | Rejet + message erreur |
+| T5 | Insertion note = -3 | `/insert` | Rejet + message erreur |
+| T6 | Double insertion même matière | `/insert` | 2 lignes BDD, MAX affiché |
+| T7 | Suppression note MAX | `/etud/{id}` | Note suivante affichée |
+| T8 | Fiche étudiant sans notes | `/etud/{id}` | Affichage propre, pas de crash |
+| T9 | Matière optionnelle S4 | `/etud/{id}` | Meilleure matière optionnelle sélectionnée |
+| T10 | Moyenne L2 | `/etud/{id}` | Calcul pondéré correct |
+| T11 | URL étudiant inexistant | `/etud/9999` | 404 ou message explicite |
+| T12 | Injection SQL login | `/login` | Échec propre, pas d'accès |
