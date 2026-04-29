@@ -1,0 +1,176 @@
+ERROR - 2026-04-29 08:27:21 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-04-29 08:27:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: POST, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php')
+ERROR - 2026-04-29 08:27:30 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-04-29 08:27:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: POST, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php')
+ERROR - 2026-04-29 08:30:01 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-04-29 08:30:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: POST, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php')
+ERROR - 2026-04-29 08:33:32 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/victus/Documents/GitHub/Bulletin/bulletin/app/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+#5 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 /home/victus/Documents/GitHub/Bulletin/bulletin/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/victus/Documents/GitHub/Bulletin/bulletin/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/victus/Documents/GitHub/Bulletin/bulletin/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-04-29 08:33:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: POST, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AuthController.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\AuthController->verifier()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/victus/Documents/GitHub/Bulletin/bulletin/public/index.php')
