@@ -30,14 +30,14 @@
         - id_matiere
         - note
 
-    - [ ] Creation de la vue v_note_par_option (group by option , si pas d'option c'est S3)
+    - [ ] Creation de la vue v_note_par_option (group by option , si pas d'option c'est S3 , on prend la matiere optionel avec la note la plus elevees parmi les notes optionnelles )
         - id_etu
         - note
         - id_matiere
         - coef
         - id_option
   
-    - [ ] Creation de la vue v_moyenne_par_option (group by option , si pas d'option c'est S3)
+    - [ ] Creation de la vue v_moyenne_par_option (group by option , si pas d'option c'est S3, on prend les notes par ooptions et on en fait une moyenne )
         - id_etu
         - moyenne
         - coef_total
