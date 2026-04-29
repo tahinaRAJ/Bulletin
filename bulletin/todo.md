@@ -37,7 +37,7 @@
         - coef
         - id_option
   
-    - [ ] Creation de la vue v_moyenne_par_option (group by option , si pas d'option c'est S3, on prend les notes par ooptions et on en fait une moyenne )
+    - [ ] Creation de la vue v_moyenne_par_option (group by option , si pas d'option c'est S3, on prend les notes par options et on en fait une moyenne )
         - id_etu
         - moyenne
         - coef_total
@@ -77,10 +77,11 @@
       - [ ] Creation du controller "NoteController"
         - [ ] Creation de la fonction insererNote(id_etu,note,id_matiere)
       - [ ] Creation du model "NoteModel"
-        - [ ] Creation de la fonction insererNote(id_etu,note,id_matiere) : verifier que la note n'est pas negative et entre 0 a 20 , si on  insere plusieurs fois pour la meme note et meme matiere  , a chaque nouvelle insertion , on prend le plus grand entre l'inertion et la base  
+        - [ ] Creation de la fonction insererNote(id_etu,note,id_matiere) : verifier que la note n'est pas negative et entre 0 a 20 , si on  insere plusieurs fois pour la meme note et meme matiere  , a chaque nouvelle insertion , on prend le plus grand entre l'inertion et la base mais on garde toutes les notes au cas ou on supprimme la note la plus grande -> on affiche la note qui suit 
 
     -[ ] Creation de la page ficheEtu
       - [ ] Modification du controller "NoteController"
+        - [ ] Creation de la fonction supprimerNote(id, id_etu,id_matiere)
         - [ ] Creation de la fonction findAllNotesByoption(id_etu)
         - [ ] Creation de la fonction findAllMoyenneByYear(id_etu)
         - [ ] Creation de la fonction findAllMoyenneBySemestre(id_etu)
